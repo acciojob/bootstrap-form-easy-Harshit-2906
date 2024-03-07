@@ -8,6 +8,57 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="form-group">
+		<label for="firstName">First Name</label>
+		<input type="text" class="form-control" id="first-name-input" required>
+		<div class="invalid-feedback">
+			Please enter your first name.
+		</div>
+
+		<label for="lastName">Last Name</label>
+		<input type="text" class="form-control" id="last-name-input" required>
+		<div class="invalid-feedback">
+			Please enter your last name.
+		</div>
+
+		<label for="email">Email Address</label>
+		<input type="email" class="form-control" id="email-input" placeholder="xyz@gmail.com" required>
+		<div class="invalid-feedback">
+			Please enter your email address.
+		</div>
+
+		<label for="college">Email Address</label>
+		<input type="text" class="form-control" id="college-input" required>
+		<div class="invalid-feedback">
+			Please enter your email address.
+		</div>
+
+		<label for="graduationYear">Graduation Year</label>
+		<select class="form-control" id="graduation-year-input" required>
+			<option value="">Select Year</option>
+	        <option value="2020">2020</option>
+	        <option value="2021">2021</option>
+	        <option value="2022">2022</option>
+	        <option value="2023">2023</option>
+	    </select>
+	    <div class="invalid-feedback">
+	        Please select your graduation year.
+	    </div>
+
+		<label for="roll-no">Roll No</label>
+		<input type="number" class="form-control" id="roll-no-input" required>
+		<div class="invalid-feedback">
+			Please enter your roll no.
+		</div>
+
+		<label for="condtion-check">Agree to terms and condition</label>
+		<input type="checkbox" class="form-control" id="conditions-checkbox" required>
+		<div class="invalid-feedback">
+			you must agree before submitting.
+		</div>
+
+		<button type="submit">Submit form</button>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
