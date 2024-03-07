@@ -9,32 +9,32 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<div class="form-group">
-		<label for="first-name-input">First Name</label>
-		<input type="text" class="form-label" id="first-name-input" required>
+		<label for="first-name-input" class="form-label">First Name</label>
+		<input type="text" class="form-control" id="first-name-input" required>
 		<div class="invalid-feedback">
 			First Name required!
 		</div>
 
-		<label for="last-name-input">Last Name</label>
+		<label for="last-name-input" class="form-label">Last Name</label>
 		<input type="text" class="form-control" id="last-name-input" required>
 		<div class="invalid-feedback">
 			Last Name required!
 		</div>
 
-		<label for="email-input">Email Address</label>
-		<input type="email" class="form-control" id="email-input" placeholder="xyz@gmail.com" required>
+		<label for="email-input" class="form-control">Email Address</label>
+		<input type="email" class="form-label" id="email-input" placeholder="xyz@gmail.com" required>
 		<div class="invalid-feedback">
 			Email required!
 		</div>
 
-		<label for="college-input">College</label>
+		<label for="college-input" class="form-label">College</label>
 		<input type="text" class="form-control" id="college-input" required>
 		<div class="invalid-feedback">
 			Please provide a valid college.
 		</div>
 
-		<label for="grad-year-select">Graduation Year</label>
-		<select class="form-label" id="grad-year-select" required>
+		<label for="grad-year-select" class="form-label">Graduation Year</label>
+		<select class="form-control" id="grad-year-select" required>
 			<option value="">choose...</option>
 	        <option value="2020">2020</option>
 	        <option value="2021">2021</option>
@@ -45,20 +45,20 @@
 	        Please select a valid graduation year.
 	    </div>
 
-		<label for="roll-no-input">Roll No.</label>
-		<input type="text" class="form-label" id="roll-no-input" required>
+		<label for="roll-no-input" class="form-label">Roll No.</label>
+		<input type="text" class="form-control" id="roll-no-input" required>
 		<div class="invalid-feedback">
 			Please provide a valid Roll no.
 		</div>
 
-		<input class="form-label" type="checkbox" value="" id="condition-checkbox">
-		<label for="condition-checkbox">Agree to terms and conditions</label>
+		<input class="form-control" type="checkbox" value="" id="condition-checkbox">
+		<label for="condition-checkbox" class="form-label">Agree to terms and conditions</label>
 		<div class="invalid-feedback">
 	        You must agree before submitting.
 	    </div>
 		
 
-		<button type="submit">Submit form</button>
+		<button type="submit" class="btn btn-primary">Submit</button>
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>
