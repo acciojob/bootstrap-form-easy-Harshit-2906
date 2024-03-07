@@ -8,53 +8,80 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="form-group">
-		<label for="first-name-input" class="form-label">First Name</label>
-		<input type="text" class="form-control" id="first-name-input" required>
-		<div class="invalid-feedback">
-			First Name required!
+	<form>
+		<div class="form-group">
+			<label for="first-name-input" class="form-label">First Name</label>
+			<input type="text" class="form-control" id="first-name-input" required>
+			<div class="invalid-feedback">
+				First Name required!
+			</div>
 		</div>
 
-		<label for="last-name-input" class="form-label">Last Name</label>
-		<input type="text" class="form-control" id="last-name-input" required>
-		<div class="invalid-feedback">
-			Last Name required!
+		
+		<div class="form-group">
+			<label for="last-name-input" class="form-label">Last Name</label>
+			<input type="text" class="form-control" id="last-name-input" required>
+			<div class="invalid-feedback">
+				Last Name required!
+			</div>
 		</div>
 
-		<label for="email-input" class="form-label">Email Address</label>
-		<input type="email" class="form-control" id="email-input" placeholder="xyz@gmail.com" required>
-		<div class="invalid-feedback">
-			Email required!
-		</div>
-
-		<label for="college-input" class="form-label">College</label>
-		<input type="text" class="form-control" id="college-input" required>
-		<div class="invalid-feedback">
-			Please provide a valid college.
-		</div>
-
-		<label for="grad-year-select" class="form-label">Graduation Year</label>
-		<select class="form-select" id="grad-year-select" required>
-			<option value="">choose...</option>
-	        <option value="2020">2020</option>
-	        <option value="2021">2021</option>
-	        <option value="2022">2022</option>
-	        <option value="2023">2023</option>
-	    </select>
-	    <div class="invalid-feedback">
-	        Please select a valid graduation year.
-	    </div>
-
-		<label for="roll-no-input" class="form-label">Roll No.</label>
-		<input type="text" class="form-control" id="roll-no-input" required>
-		<div class="invalid-feedback">
-			Please provide a valid Roll no.
+		<div class="form-group">
+			<label for="email-input" class="form-label">Email Address</label>
+			<input type="email" class="form-control" id="email-input" placeholder="xyz@gmail.com" required>
+			<div class="invalid-feedback">
+				Email required!
+			</div>
 		</div>
 		
-		<button type="submit" class="btn btn-primary">Submit</button>
-	</div>
+		<div class="form-group">
+			<label for="college-input" class="form-label">College</label>
+			<input type="text" class="form-control" id="college-input" required>
+			<div class="invalid-feedback">
+				Please provide a valid college.
+			</div>
+		</div>
+
+		
+		<div class="form-group">
+			<label for="grad-year-select" class="form-label">Graduation Year</label>
+			<select class="form-select" id="grad-year-select" required>
+				<option value="">choose...</option>
+		        <option value="2020">2020</option>
+		        <option value="2021">2021</option>
+		        <option value="2022">2022</option>
+		        <option value="2023">2023</option>
+		    </select>
+		    <div class="invalid-feedback">
+		        Please select a valid graduation year.
+		    </div>
+		</div>
+
+		<div class="form-group">
+			<label for="roll-no-input" class="form-label">Roll No.</label>
+			<input type="text" class="form-control" id="roll-no-input" required>
+			<div class="invalid-feedback">
+				Please provide a valid Roll no.
+			</div>
+		</div>
+
+		<div class="form-group form-check">
+		    <input type="checkbox" class="form-check-input" id="conditions-checkbox" required>
+		    <label class="form-check-label" for="conditions-checkbox">I agree to the conditions.</label>
+			<div class="invalid-feedback">
+		        You must agree to the conditions.
+			</div>
+		</div>
+
+		
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</div>
+	
+
+	</form>
     <script type="text/javascript" src="./script.js">
-</script>
+	</script>
 
 </body>
 
